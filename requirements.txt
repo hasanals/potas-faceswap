@@ -2,6 +2,7 @@ potassium
 torch
 transformers
 torchvision
-insightface
+insightface==0.7.3
 onnxruntime-gpu
+opencv-python
 gfpgan
