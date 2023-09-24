@@ -2,6 +2,6 @@ potassium
 torch
 transformers
 torchvision
-insightface==0.7.3
+insightface
 onnxruntime-gpu
 gfpgan
