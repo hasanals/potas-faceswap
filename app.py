@@ -14,11 +14,11 @@ app = Potassium("faceswap")
 @app.init
 def init():
     face_swapper = insightface.model_zoo.get_model(
-        'cache/inswapper_128.onnx',
+        'faceswap/inswapper_128.onnx',
         providers=onnxruntime.get_available_providers()
     )
     face_enhancer = gfpgan.GFPGANer(
-        model_path='cache/GFPGANv1.4.pth',
+        model_path='faceswap/GFPGANv1.4.pth',
         upscale=1
     )
     face_analyser = FaceAnalysis(name='buffalo_l')
