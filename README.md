@@ -6,8 +6,8 @@ For the custom model: Faceswap
 ### Example:
 ```
 inputs = {
-    "image1": "<first_image/tony>",
-    "image2": "<second_image/elon>"
+    "target_image": "<first_image/tony>",
+    "swap_image": "<second_image/elon>"
 }
 ```
 
