@@ -8,7 +8,7 @@ import onnxruntime
 from PIL import Image
 from insightface.app import FaceAnalysis
 
-app = Potassium("my_app")
+app = Potassium("faceswap")
 
 # @app.init runs at startup, and loads models into the app's context
 @app.init
